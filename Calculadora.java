@@ -11,6 +11,12 @@ public class Calculadora {
     public double dividir(double dividendo, double divisor) {
         return dividendo / divisor;
     }
+    
+    // Promediar
+    public double promediar(double valor1, double valor2, double valor3) {
+        return (valor1 + valor2 + valor3) / 3;
+    }
+
 
     
  }

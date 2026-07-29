@@ -12,6 +12,8 @@ public class TestCalculadora {
         double cociente = calc.dividir(10, 2);
         System.out.println("División: " + cociente);
         
+        double promedio = calc.promediar(10, 8, 9);
+        System.out.println("Promedio: " + promedio);
 
     }
 
