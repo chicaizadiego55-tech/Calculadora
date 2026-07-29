@@ -14,6 +14,8 @@ public class TestCalculadora {
         
         double promedio = calc.promediar(10, 8, 9);
         System.out.println("Promedio: " + promedio);
+        
+        calc.mostrarResultado();
 
     }
 
