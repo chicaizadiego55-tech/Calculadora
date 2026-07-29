@@ -8,7 +8,9 @@ public class TestCalculadora {
 
         double producto = calc.multiplicar(10, 5);
         System.out.println("Multiplicación: " + producto);
-
+        
+        double cociente = calc.dividir(10, 2);
+        System.out.println("División: " + cociente);
         
 
     }
